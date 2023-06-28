@@ -1,0 +1,96 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+  }
+  
+  .left-icons {
+    font-size: 20px;
+    color: #333;
+    cursor: pointer;
+  }
+  
+  .right-icons {
+    display: flex;
+    align-items: flex-end;
+    gap: 5px;
+  }
+  
+  .right-icons i {
+    font-size: 20px;
+    color: #333;
+  }
+  
+  .right-icons span {
+    font-size: 14px;
+    color: #333;
+    font-weight: bold;
+  }
+  
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+  }
+  
+  .instagram-photo {
+    width: 400px;
+    height: 400px; 
+    background-size: cover;
+    border-radius: 5px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  }
+
+  .actions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+  }
+  
+  .left-icons i {
+    font-size: 20px;
+    color: #333;
+    margin-right: 10px;
+    cursor: pointer;
+  }
+  
+  .right-icons i {
+    font-size: 20px;
+    color: #333;
+    cursor: pointer;
+  }
+
+  .likes-line {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+  }
+  
+  .likes-line hr {
+    flex-grow: 1;
+    border: none;
+    height: 1px;
+    background-color: #ccc;
+    margin-right: 10px;
+  }
+  
+  .likes-count {
+    font-size: 14px;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  .description {
+    font-size: 14px;
+    color: #333;
+    margin-top: 10px;
+    width: 1000px;
+  }
+  
